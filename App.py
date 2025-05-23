@@ -114,12 +114,10 @@ def processar_documento(doc):
 
 
 # 🔥 INTERFACE STREAMLIT
-st.title("🚀 Robô de Legendas Processuais")
+st.title("🚀 Robô Shinji")
 
 st.markdown("""
-Envie seu documento (.docx) com as publicações.  
-O sistema irá gerar as legendas automaticamente no seu padrão,  
-com **fundo amarelo destacado** (marca-texto) abaixo de cada publicação.
+Envie seu documento (.docx) com as publicações. 
 """)
 
 arquivo = st.file_uploader("📤 Envie seu documento (.docx)", type="docx")
